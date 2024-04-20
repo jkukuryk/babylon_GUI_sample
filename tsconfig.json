@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "baseUrl": ".",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "noResolve": false,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "preserveConstEnums": true,
+        "lib": ["dom", "es6"],
+        "rootDir": "game",
+        "paths": {
+            "helper/*": ["game/helper/*"],
+            "class/*": ["game/class/*"],
+            "assets/*": ["game/assets/*"],
+            "game/*": ["game/*"]
+        }
+    },
+    "types": ["babylonjs", "babylonjs-loaders"],
+    "exclude": ["node_modules", "_assets"]
+}
